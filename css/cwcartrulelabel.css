@@ -1,0 +1,32 @@
+.cw-cart-rules-labels {
+  margin-left: 0;
+  list-style-type: none;
+}
+
+.cw-cart-rules-labels > li {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: .2em 1.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  color: white;
+  background-color: #515963;
+}
+.cw-cart-rules-labels > li:before,
+.cw-cart-rules-labels > li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  border: solid 1em #fff;
+}
+.cw-cart-rules-labels > li:before {
+  left: 0;
+  transform: translateX(-1.5em) rotate(45deg);
+}
+.cw-cart-rules-labels > li:after {
+  right: 0;
+  transform: translateX(1.5em) rotate(45deg);
+}
