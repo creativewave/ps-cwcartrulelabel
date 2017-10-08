@@ -1,0 +1,34 @@
+{
+  "name": "creativewave/ps-cwcartrulelabel",
+  "description": "Prestashop module for displaying cart rules labels in categories.",
+  "type": "prestashop-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guillaume Lebas",
+      "email": "contact@creative-wave.fr"
+    }
+  ],
+  "extra": {
+    "installer-name": "cwcartrulelabel"
+  },
+  "dist": {
+      "type": "zip",
+      "url": "https://github.com/creativewave/ps-cwcartrulelabel/releases/download/v1.0.0/cwcartrulelabel.zip"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/creativewave/ps-module-configuration"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1",
+    "creativewave/ps-module-configuration": "^1",
+    "php": "^7"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2",
+    "phpunit/phpunit": "^6"
+  }
+}
